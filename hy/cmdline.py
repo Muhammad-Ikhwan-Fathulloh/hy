@@ -87,7 +87,6 @@ def cmdline_handler(argv):
         ),
         dict(
             name=["-h", "--help"],
-            action="help",
             help="print this help message and exit",
         ),
         dict(
@@ -118,7 +117,6 @@ def cmdline_handler(argv):
         ),
         dict(
             name=["-v", "--version"],
-            action="version",
             help="print the Hy version number and exit",
         ),
     ]
